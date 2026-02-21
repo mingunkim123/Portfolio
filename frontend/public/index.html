@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mingun Kim | CV</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="page-layout">
+
+    <!-- ── 왼쪽 사이드바 ── -->
+    <aside class="sidebar" aria-label="Profile sidebar">
+
+      <!-- 사진 영역 -->
+      <div class="profile-photo-wrap">
+        <div class="profile-photo" title="Profile photo">
+          <span class="photo-placeholder">Photo</span>
+        </div>
+      </div>
+
+      <!-- 이름 / 한줄 소개 (사이드바 전용) -->
+      <div class="sidebar-name-block">
+        <p class="sidebar-name" id="sidebar-name">—</p>
+        <p class="sidebar-headline" id="sidebar-headline">—</p>
+      </div>
+
+      <!-- GitHub 링크 -->
+      <div class="sidebar-github" id="sidebar-github">
+        <!-- app.js 에서 주입 -->
+      </div>
+
+      <!-- 목차 (Table of Contents) -->
+      <nav class="toc" aria-label="Section navigation">
+        <p class="toc-title">Contents</p>
+        <a href="#top">Top</a>
+        <a href="#interests-section">Interests</a>
+        <a href="#education-section">Education</a>
+        <a href="#experience-section">Experience</a>
+        <a href="#awards-section">Awards</a>
+        <a href="#skills-section">Skills</a>
+        <a href="#projects-section">Projects</a>
+        <a href="#activities-section">Activities</a>
+      </nav>
+    </aside>
+
+    <!-- ── 중앙 본문 ── -->
+    <main class="resume" id="top">
+
+      <header class="section header">
+        <h1 id="name">Loading...</h1>
+        <p id="headline" class="headline"></p>
+        <div class="contact" id="contact"></div>
+      </header>
+
+      <section class="section" id="interests-section">
+        <h2>Interests</h2>
+        <div id="interests" class="chip-wrap"></div>
+      </section>
+
+      <section class="section" id="education-section">
+        <h2>Education</h2>
+        <div id="education" class="stack"></div>
+      </section>
+
+      <section class="section" id="experience-section">
+        <h2>Experience</h2>
+        <div id="experience" class="stack"></div>
+      </section>
+
+      <section class="section" id="awards-section">
+        <h2>Awards</h2>
+        <div id="awards" class="stack"></div>
+      </section>
+
+      <section class="section section-divider-bottom" id="skills-section">
+        <h2>Skills</h2>
+        <div id="skills" class="skills"></div>
+      </section>
+
+      <section class="section" id="projects-section">
+        <h2>Projects</h2>
+        <div id="projects" class="stack"></div>
+      </section>
+
+      <section class="section" id="activities-section">
+        <h2>Activities</h2>
+        <div id="activities" class="stack"></div>
+      </section>
+    </main>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
