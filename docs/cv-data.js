@@ -19,7 +19,6 @@ window.CV_DATA = {
             location: "Seoul, South Korea",
             period: "Mar 2020 - Present",
             degree: "B.S. in Electrical and Electronic Engineering",
-            details: ["Cumulative GPA: 3.58 / 4.3", "Major GPA: 3.8 / 4.3"],
         },
     ],
 
